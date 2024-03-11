@@ -1,0 +1,22 @@
+[project]
+name = "bopra-db"
+version = "0.1.0"
+description = "Generate BOPRA research database."
+authors = [
+    { name = "Simo Mäkelä", email = "simo.makela@iki.fi" }
+]
+dependencies = [
+    "pandas>=2.2.1",
+    "pyarrow>=15.0.1",
+    "openpyxl>=3.1.2",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+
+#[project.scripts]
+#hello = "bopra_cde:hello"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
